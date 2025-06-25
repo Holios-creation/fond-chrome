@@ -1,23 +1,12 @@
 {
-  "manifest_version": 3,
-  "name": "FFME Theme",
+  "name": "Fond personnalisé FFME",
   "version": "1.0",
-  "description": "Thème personnalisé avec fond FFME",
-  "theme": {
-    "images": {
-      "theme_ntp_background": "images/fond-ffme.jpg"
-    },
-    "properties": {
-      "ntp_background_alignment": "bottom",
-      "ntp_background_repeat": "no-repeat"
-    },
-    "colors": {
-      "frame": [40, 40, 40],
-      "toolbar": [60, 60, 60],
-      "tab_text": [255, 255, 255],
-      "ntp_background": [255, 255, 255],
-      "ntp_text": [0, 0, 0],
-      "button_background": [255, 255, 255]
-    }
+  "manifest_version": 3,
+  "description": "Applique un fond d'écran personnalisé sur la page Nouvel Onglet",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "fond-ffme.jpg"
   }
 }
