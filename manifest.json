@@ -1,23 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Thème FFME Chrome",
+  "name": "FFME Theme",
   "version": "1.0",
-  "description": "Thème personnalisé pour la FFME Loire-Haute-Loire",
+  "description": "Thème personnalisé avec fond FFME",
   "theme": {
     "images": {
-      "theme_ntp_background": "fond-ffme.jpg"
+      "theme_ntp_background": "images/fond-ffme.jpg"
     },
     "properties": {
-      "ntp_background_alignment": "center",
+      "ntp_background_alignment": "bottom",
       "ntp_background_repeat": "no-repeat"
     },
     "colors": {
-      "frame": [32, 33, 36],
-      "toolbar": [66, 133, 244],
+      "frame": [40, 40, 40],
+      "toolbar": [60, 60, 60],
       "tab_text": [255, 255, 255],
       "ntp_background": [255, 255, 255],
       "ntp_text": [0, 0, 0],
-      "button_background": [66, 133, 244]
+      "button_background": [255, 255, 255]
     }
   }
 }
